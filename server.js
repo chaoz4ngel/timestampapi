@@ -10,8 +10,8 @@ router.get('/', (req, res) => {
 });
 
 
-
 app.get('/:dataInput', function (req, res) {
+  
   var re = /^\w*(January|February|March|April|May|June|July|August|September|October|November|December|Jan|Feb|Mar|Apr|Jun|Jul|Aug|Sep|Oct|Nov|Dec),\d{1,2},\d{2,4}/gi;
   var re2 = /^\d{1,10}$/;
   var date = req.params.dataInput;
