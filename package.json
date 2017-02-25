@@ -1,14 +1,33 @@
 {
-  "name": "project",
+  "name": "timestamp",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "TimestampApi",
+  "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node app.js"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chaoz4ngel/timestampapi.git"
+  },
+  "keywords": [
+    "time",
+    "unix",
+    "stamp",
+    "timestamp"
+  ],
+  "author": "chaoz4ngel",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/chaoz4ngel/timestamp/issues"
+  },
+  "homepage": "https://github.com/chaoz4ngel/timestamp#readme",
   "dependencies": {
-    "express": "^4.14.1"
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "morgan": "^1.7.0",
+    "path": "^0.12.7",
+    "request": "^2.69.0",
+    "serve-favicon": "^2.3.0"
   }
 }
